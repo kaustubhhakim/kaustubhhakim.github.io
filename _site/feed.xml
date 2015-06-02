@@ -2,82 +2,1416 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaustubh Hakim</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>https://kaustubhhakim.github.io/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2015 17:41:12 +0200</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2015 17:41:12 +0200</lastBuildDate>
+    <description>Personal website of Kaustubh Hakim
+</description>
+    <link>http://exokaustubh.com/</link>
+    <atom:link href="http://exokaustubh.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Jun 2015 12:42:04 +0200</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 12:42:04 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Project 1</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/18/project-1/</guid>
+        <title>Senior Capstone: ManaGRR</title>
+        <description>&lt;p&gt;Champlain College has its students do a capstone during their senior year. It is a 2 semester long project that involves taking everything learned in the curriculum over the past 3 years.&lt;/p&gt;
+
+&lt;p&gt;For Computer Networking and Information Security, it can be a research or development project.&lt;/p&gt;
+
+&lt;p&gt;I chose to work with GRR Rapid Response for my capstone. I’ve had experience working with GRR before, because &lt;a href=&quot;http://107.170.7.133/blog/?p=95&quot;&gt;previous&lt;/a&gt; &lt;a href=&quot;https://benvirgilio.com/uploads/RAR/RapidAutomatedResponse.pdf&quot;&gt;students&lt;/a&gt; did research projects on it. I understood the purpose of the project and how useful it could be for businesses.&lt;/p&gt;
+
+&lt;p&gt;My idea was to create an easy way to bring GRR in to businesses for incident response and live forensics.&lt;/p&gt;
+
+&lt;p&gt;And that’s how &lt;strong&gt;ManaGRR&lt;/strong&gt; started.&lt;/p&gt;
+
+&lt;p&gt;It’s a management program that will setup a customized version of GRR for each incoming client.&lt;br /&gt;
+ Essentially to sell &lt;em&gt;GRR as a Service&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Python-Flask is an incredible platform for web applications. It’s a microframework that really made this project easier to write. The only troubles I ran into was that I was learning more about the language over time and I had to keep going back and changing things.&lt;/p&gt;
+
+&lt;p&gt;Abstract:
+&amp;gt;GRR Rapid Response is an application for incident response and live forensics. It involves dealing with separate servers communicating together in a secure manner. Using this application for production use is quite difficult to manage when dealing with multiple clients. The result is a python-flask application that communicates with Proxmox hypervisor to provision each virtual role with a proper private network stack. It expands GRR’s capability and ease-of-setup especially when dealing with a growing business.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/post_capstone/poster-kevin_law.pdf&quot;&gt;Capstone Poster&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/images/post_capstone/Capstone_Final_KevinLaw.pdf&quot;&gt;Capstone Paper&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://github.com/thatarchguy/Managrr&quot;&gt;Github Project&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free &amp;amp; Open Source.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 May 2015 00:00:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/senior-capstone-managrr</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/senior-capstone-managrr</guid>
         
-        
-        <category>web development</category>
         
       </item>
     
       <item>
-        <title>Project 2</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/17/project-2/</guid>
+        <title>RaspberryPi Portable Firewall/IPS/DNS-RPZ</title>
+        <description>&lt;p&gt;Connecting to unsecured networks can be a risk. You really don’t know what could be running on the network. We can use the raspberry pi to act as a firewall for our laptops.&lt;/p&gt;
+
+&lt;p&gt;For class, my group was assigned a project to create a portable firewall using a raspberry pi. The pi would connect via wifi to any hotspot (xfinitywifi, starbucks, etc…) and have the host computer attached be completely secure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_raspifirewall/2015-02-06-014348_484x151_scrot.png&quot; alt=&quot;Network Diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1x raspberry pi&lt;/li&gt;
+  &lt;li&gt;1x 4gb sd card (raspbian installed)&lt;/li&gt;
+  &lt;li&gt;1x usb wifi adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The default login for raspbian is pi:raspberry&lt;/p&gt;
+
+&lt;h3 id=&quot;misc-configs&quot;&gt;Misc Configs&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;
+pi@raspberrypi ~ $ sudo su -
+root@raspberrypi:~# apt-get update &amp;amp;&amp;amp; apt-get upgrade
+root@raspberrypi:~# apt-get install isc-dhcp-server bind9 snort wpasupplicant wireless-tools openssh-server vim tmux
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Set a static IP address for eth0
+We can define the pi’s ethernet address as 10.11.12.13/24 since that subnet is rarely used, and it’s easier to remember!&lt;/p&gt;
+
+&lt;p&gt;Edit &lt;code&gt;[/etc/networks/interfaces]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+auto lo
+iface lo inet loopback
+auto eth0
+iface eth0 inet static
+    address 10.11.12.13
+    netmask 255.255.255.0
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;SSH only on laptop&lt;br /&gt;
+Edit &lt;code&gt;[/etc/ssh/sshd_config]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+ListenAddress 10.11.12.13
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We are going to need to give out ip addresses for the clients first!&lt;br /&gt;
+Edit &lt;code&gt;[/etc/dhcp/dhcpd.conf]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+default-lease-time 600;
+max-lease-time 7200;
+subnet 10.11.12.0 netmask 255.255.255.0 {
+      range 10.11.12.100 10.11.12.200;
+     option domain-name-servers 10.11.12.13;
+     option routers 10.11.12.13;
+}
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;router--firewall---iptables&quot;&gt;Router / Firewall - IPtables&lt;/h2&gt;
+&lt;p&gt;The pi is going to act as the router for the laptop.&lt;br /&gt;
+Now let’s route some traffic from wlan0 to eth0!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+iptables -A FORWARD -i wlan0 -o eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -i eth0 -o wlan0 -j ACCEPT
+iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+&lt;/code&gt;
+That will route traffic from the wifi to the laptop, and block all attempts to connect to the actual pi.&lt;/p&gt;
+
+&lt;p&gt;We will script this up later :)&lt;/p&gt;
+
+&lt;h2 id=&quot;dns-rpz---bind9&quot;&gt;DNS-RPZ - Bind9&lt;/h2&gt;
+&lt;p&gt;DNS-RPZ allows us to maintain a blocklist for bad domains.&lt;/p&gt;
+
+&lt;p&gt;We use malware-domains.com for this, since that site provides a decently up-to-date file in bind9 format. You can easily supply your own list here.&lt;/p&gt;
+
+&lt;p&gt;Edit &lt;code&gt;[cron-update-dns.sh]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sh
+#!/bin/bash
+wget http://malware-domains.com/files/malwaredomains.zones.zip
+unzip malwaredomains.zones.zip
+sed -e &#39;s/\/etc\/namedb\/blockeddomain.hosts/\/etc\/bind\/rpz\/blocked.zone/g&#39; malwaredomains.zones &amp;gt; blocked-local.conf
+service bind9 restart
+rm malwaredomains.zones.zip
+rm malwaredomains.zones
+echo &quot;Blocklist updated: $(date)&quot; &amp;gt;&amp;gt; /var/log/blocklist
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Edit &lt;code&gt;[/etc/bind/named.conf.options]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+recursion yes;
+forwarders {
+     8.8.8.8;
+     8.8.4.4;
+};
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Edit &lt;code&gt;[/etc/bind/named.conf.local]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+include &quot;/etc/bind/blocked-local.conf&quot;;
+&lt;/code&gt;
+Edit &lt;code&gt;[/etc/bind/rpz/blocked.zone]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;```
+    $TTL 600        ; 10 minutes
+    @                       SOA     server.mydomain.com. root.mydomain.com. (
+                                   42         ; serial
+                                   900        ; refresh (15 minutes)
+                                   60         ; retry (1 minute)
+                                   604800     ; expire (1 week)
+                                   43200      ; minimum (12 hours)
+                                   )
+                           NS      server.mydomain.com.
+                           MX      1 server.mydomain.com.
+    $TTL 302400     ; 3 days 12 hours
+    @               IN      A       10.11.12.13
+    *               IN      A       10.11.12.13&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;Run that bash script once to kick it off, then add it to crontab if you want.&lt;/p&gt;
+
+&lt;h2 id=&quot;ips---snort&quot;&gt;IPS - Snort&lt;/h2&gt;
+&lt;p&gt;Good ol’ snort. You can pull in your own rules or use the default rules that come with the install. The default settings work decently, but can be tweaked.&lt;/p&gt;
+
+&lt;p&gt;Edit &lt;code&gt;[/etc/snort/snort.debian.conf]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+DEBIAN_SNORT_INTERFACE=&quot;wlan0&quot; # Change interface to wlan0
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we gotta connect to wifi. I wish webmin would supply a module for this, or an easier way for that matter.&lt;/p&gt;
+
+&lt;p&gt;Basically, I just use&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ iwlist wlan0 scan | less
+$ iwconfig wlan0 essid &quot;xfinitywifi&quot; channel 11 mode Managed
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Tie it all together
+Ssh login to the pi, connect to wifi using iwconfig commands. Then run this script!
+&lt;script src=&quot;https://gist.github.com/04ce09ce803c40028037.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_raspifirewall/20150206_012435.jpg&quot; alt=&quot;Working Lab&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://exokaustubh.com/blog/raspberry-pi-portable-firewallipsdns-rpz</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/raspberry-pi-portable-firewallipsdns-rpz</guid>
         
-        
-        <category>web development</category>
         
       </item>
     
       <item>
-        <title>Project 3</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/16/project-3/</guid>
+        <title>Open Source Continuous Deployment</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“Continuous Deployment is simple: just ship your code to customers as often as possible” -Timothy Fitz&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;going-from-code-to-deployment-in-the-easiest-and-most-pain-free-way-is-the-goal&quot;&gt;Going from code to deployment in the easiest and most pain-free way is the goal.&lt;/h4&gt;
+
+&lt;p&gt;This mostly includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Issue-Tracking System&lt;/li&gt;
+  &lt;li&gt;Version Control&lt;/li&gt;
+  &lt;li&gt;Continuous Integration&lt;/li&gt;
+  &lt;li&gt;Build and Unit Tests&lt;/li&gt;
+  &lt;li&gt;Deployment to Production&lt;/li&gt;
+  &lt;li&gt;Fail-Fast&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Services have been written to get the job done, but most are paid and hosted solutions. 
+Github Enterprise, Jira, Gitlab, Travis-CI,  etc…&lt;/p&gt;
+
+&lt;p&gt;All great tools for their use, but sometimes it’ best to host the services yourself for no fees. The tools used here are all free and open source.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;step-1-version-control--issue-tracking&quot;&gt;Step 1. Version Control &amp;amp; Issue Tracking&lt;/h4&gt;
+
+&lt;p&gt;Gogs is a Github clone written in Go. It has evolved into a respectable application. It features organizations, teams, issue tracking, repository hooks, and way more. Check it out. The project is currently hosted on Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_opensourceCI/2014-12-22-192016_979x846_scrot.png&quot; alt=&quot;Gogs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Installation is easy,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;.1. Bring up a Linux Distro of your choice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.2. Install git (obviously)
+ &lt;a href=&quot;http://gogs.io/docs/installation/install_from_binary.html&quot;&gt;wget the latest Binary&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;.3. 
+  &lt;code&gt;
+$ mv output.zip /srv/ \
+&amp;amp;&amp;amp; unzip /srv/output.zip
+ &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;.4. 
+  &lt;code&gt;
+$ bash /srv/gogs/start.sh
+ &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;.5. Navigate to http://[IP-address]:3000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that’s it. Setup a reverse proxy, ssl, and run it in a screen/tmux/nohup for better performance.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;step-2-continuous-integration&quot;&gt;Step 2. Continuous Integration&lt;/h4&gt;
+
+&lt;p&gt;Drone is a Continuous Integration service that utilizes Docker to build and test applications. Pull requests get tested before merging as well. Build status can be emailed, announced in IRC, or sent in other addon chat protocols&lt;/p&gt;
+
+&lt;p&gt;It can OAuth logins with Github, Github Enterprise, Gitlab, Bitbucket, Gogs, and other services. So there is no need to register on the server, you authorize Drone access to your account and it will query for all your repositories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_opensourceCI/2014-12-22-202249_1190x902_scrot.png&quot; alt=&quot;Drone&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Installation takes &amp;lt; 5 minutes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;.1. Bring up a Debian-based Linux Distro of your choice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.2.&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;
+$ wget http://downloads.drone.io/master/drone.deb
+$ sudo dpkg -i drone.deb
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.3. Add your gogs url to /etc/drone/drone.toml&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;
+ [gogs] 
+ url=&quot;http://[your-gogs-url]/&quot;
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.4. Login to Drone&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.5. Have a drink&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_opensourceCI/2014-12-22-202622_420x977_scrot.png&quot; alt=&quot;Drone-Build&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To enable a repository for CI on Drone, check enable in the repository list, then commit a .drone.yml file to your repository.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;#### Step 3. Status &amp;amp; Deployment&lt;/p&gt;
+
+&lt;p&gt;Drone-Wall 			 
+Wall displays are an easy way to see the project status. (Drone-Wall)[https://github.com/drone/drone-wall] is perfect for a TV on the wall.&lt;/p&gt;
+
+&lt;p&gt;Installation can be done using &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_opensourceCI/2014-12-22-202249_1190x902_scrot.png&quot; alt=&quot;Drone-wall&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;.1. Get your Drone API Key under “Account Settings” in Drone&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.2. Fill in the variables here&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;
+ $ docker pull scottwferg/drone-wall
+ $ docker run -d -p 3000:3000 -e API_SCHEME=HTTP -e API_DOMAIN=[DRONE_DOMAIN] \
+ -e API_TOKEN=[API_KEY] -e API_PORT=80 scottwferg/drone-wall
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;.3. Have another drink.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post_opensourceCI/Snapchat--5268095761595617025.jpg&quot; alt=&quot;Drone-pic&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Now how do we get this successfully built code to production?&lt;/p&gt;
+
+&lt;p&gt;The .drone.yml file has the ability to trigger a deployment at the successful completion of your build.&lt;/p&gt;
+
+&lt;p&gt;Add the Drone public ssh key provided in your Account settings to your production server.
+Add deploy parameters in the .drone.yml file to ssh in, clone the master branch, and restart services.
+More guidance can be found on the &lt;a href=&quot;https://github.com/drone/drone/blob/v0.2.1/README.md#builds&quot;&gt;Official documentation&lt;/a&gt; and some &lt;a href=&quot;http://docs.drone.io/ssh.html&quot;&gt;basic scripting&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;#### Conclusion
+Great!
+Now we have an open source, free, and automated environment that will version control, issue track, build, test, and deploy code. This is perfect continuous deployment. Code that breaks will not be deployed, so chances of failure go down greatly. And since we are continuously deploying, no reason to wait a week to push fixes if we do fail.&lt;/p&gt;
+
+&lt;p&gt;The code to deployment pipeline should be very fast. In the event of a failure, fixes need to get deployed as quickly as possible. “Set a fixed goal for the total commit-build-deploy process. At IMVU that goal was roughly 10 minutes, at Canvas that goal was 5 minutes.” - Timothy Fitz
+Drone’s build &amp;amp; testing using Docker is extremely quick for my python-flask application.&lt;/p&gt;
+
+&lt;p&gt;See how Etsy goes from code to deployment with &lt;a href=&quot;https://codeascraft.com/2010/05/20/quantum-of-deployment/&quot;&gt;Deployinator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inspired by:
+&lt;a href=&quot;http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/&quot;&gt;http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/&lt;/a&gt;
+&lt;a href=&quot;http://timothyfitz.com/2012/11/25/paths-to-continuous-deployment/&quot;&gt;http://timothyfitz.com/2012/11/25/paths-to-continuous-deployment/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Dec 2014 04:33:00 +0100</pubDate>
+        <link>http://exokaustubh.com/blog/open-source-continuous-deployment</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/open-source-continuous-deployment</guid>
         
-        
-        <category>web development</category>
         
       </item>
     
       <item>
-        <title>Project 6</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/15/project-6/</guid>
+        <title>The Road to DevOps</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+
+&lt;br /&gt;
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Development practices are just as important as the code itself&lt;/h2&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;This isn&#39;t some big advertisement for these products, but I totally endorse and use these for all my projects.&lt;/span&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/&quot; target=&quot;_blank&quot;&gt;What is this DevOps thing anyway?&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;I always thought I was a good programmer. Changes to my code always consisted of making a change, hitting save, then compiling. And that&#39;s it. If a change was made that ruined everything, I could not rollback.
+&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;That was bad.&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;This is my journey.&lt;/div&gt;
+&lt;br /&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; text-align: right;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_roaddevops/2014-10-07-211605_667x198_scrot.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_roaddevops/2014-10-07-211605_667x198_scrot.png&quot; height=&quot;117&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;We&#39;ve all been here.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;Version control opened doors for me. It allowed me to stop worrying about saving edits.
+&lt;br /&gt;
+&lt;br /&gt;I could finally code without worry. I no longer had copies of copies of files in a folder &lt;i&gt;just in case&lt;/i&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://assets-cdn.github.com/images/modules/logos_page/Octocat.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;165&quot; src=&quot;https://assets-cdn.github.com/images/modules/logos_page/Octocat.png&quot; width=&quot;200&quot; /&gt;
+&lt;/a&gt;Branches for days and &lt;a href=&quot;http://nvie.com/posts/a-successful-git-branching-model/&quot; target=&quot;_blank&quot;&gt;Git-flow &lt;/a&gt;as my train tracks.
+&lt;br /&gt;
+&lt;br /&gt;&lt;a href=&quot;http://github.com/&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; is awesome for git. It is a effective platform for healthy and productive collaboration.
+&lt;br /&gt;
+&lt;br /&gt;Commits can be diff&#39;d in a simple interface, repositories can be forked and merged with ease, and it makes managing a project that much easier. Most of my projects are hosted on Github now.
+&lt;br /&gt;
+&lt;br /&gt;Issues and milestones integrate very well with repositories.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://waffle.io/blog/assets/images/site-logo.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://waffle.io/blog/assets/images/site-logo.png&quot; width=&quot;144&quot; /&gt;
+&lt;/a&gt;I discovered &lt;a href=&quot;http://waffle.io/&quot; target=&quot;_blank&quot;&gt;waffle.io&lt;/a&gt;, a startup dedicated to created kanban-style boards for Github issues.
+&lt;br /&gt;
+&lt;br /&gt;It was designed to work with Github issues and help visualize them in a progress board fashion.
+&lt;br /&gt;
+&lt;br /&gt;This is perfect for large projects where keeping track of who is doing what is vital.
+&lt;br /&gt;
+&lt;br /&gt;I&#39;ve even heard of companies using github issues as their ticketing system for helpdesk.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;https://education.travis-ci.com/img/travis-mascot-200px.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://education.travis-ci.com/img/travis-mascot-200px.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;Continous integration takes code that developers commit and builds it with the mainline. This process can detect bugs and issues without user intervention. It prevents merging in broken code.
+&lt;br /&gt;
+&lt;br /&gt;Once it is set up (and setup is extremely easy) it can be an integral part of development.
+&lt;br /&gt;
+&lt;br /&gt;&lt;a href=&quot;ttps://travis-ci.org&quot; target=&quot;_blank&quot;&gt;Travis-ci&lt;/a&gt; is a popular continuous integration tool that can seamlessly integrate with Github projects.
+&lt;br /&gt;
+&lt;br /&gt;All pull-requests can be automatically tested against the mainline to test if it is safe to merge.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Virtualization is something I&#39;ve always done. I&#39;d make various virtual machines to do various tasks. I never thought about it in development until I realized that my friends ran windows and I ran linux. I&#39;d say, &quot;Well just run a virtual machine with apache, php, and mysql&quot;. It was always a hassle, and never really got anywhere. They would install different packages like nginx or an old version of php.
+&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;
+&lt;br /&gt;
+&lt;a href=&quot;https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;126&quot; src=&quot;https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png&quot; width=&quot;200&quot; /&gt;
+&lt;/a&gt;I then found out about Virtual Private Servers (VPS) and &lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot;&gt;Digital Ocean&lt;/a&gt;. A VPS grants to ability to run a virtual server with popular operating systems and&amp;nbsp; a public IP.
+&lt;br /&gt;
+&lt;br /&gt;Their API allows for creating these VPS&#39;s with a few commands. It&#39;s very similar to Amazon AWS EC2 instances, but way less to learn.
+&lt;br /&gt;
+&lt;br /&gt;They cost money though. But it does allow for a quick and easy way to bring up a public box to show code or develop on.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png&quot; height=&quot;200&quot; width=&quot;163&quot; /&gt;
+&lt;/a&gt;
+&lt;br /&gt;That&#39;s when I learned about &lt;a href=&quot;https://www.vagrantup.com/&quot; target=&quot;_blank&quot;&gt;Vagrant&lt;/a&gt;.
+&lt;br /&gt;&amp;nbsp;
+&lt;br /&gt;This awesome tool let&#39;s you deploy a virtual machine, install software, and run commands all with a config file and &#39;vagrant up&#39;.
+&lt;br /&gt;
+&lt;br /&gt;Developers can just clone your code and type &#39;vagrant up&#39;, and have a virtual machine complete with the exact software as everyone else working on the project. It is designed to be portable and reproducible.
+&lt;br /&gt;
+&lt;br /&gt;Vagrant is awesome. It has plugins to deploy onto Amazon EC2 instances, Digital Ocean, and various other virtualization platforms.
+&lt;br /&gt;
+&lt;br /&gt;It creates an operating system independent application, defeating the age old &quot;Works on machine&quot; argument.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;http://ddf912383141a8d7bbe4-e053e711fc85de3290f121ef0f0e3a1f.r87.cf1.rackcdn.com/docker-whale.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://ddf912383141a8d7bbe4-e053e711fc85de3290f121ef0f0e3a1f.r87.cf1.rackcdn.com/docker-whale.png&quot; height=&quot;200&quot; width=&quot;200&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;&lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot;&gt;Docker&lt;/a&gt; creates a quick and easy virtual environment utilizing linux containers. A file much like a vagrantfile is created that has all the specifications and commands for the VM to run on install.
+&lt;br /&gt;
+&lt;br /&gt;It is very fast to build your application into a container. It even allows to diff entire containers for changes. These containers can be sent to other members of the team for testing and QA.
+&lt;br /&gt;
+&lt;br /&gt;Docker is being used in production to deploy applications more and more now. With operating systems like CoreOS, creating a fleet of deployments is simple.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;/images/post_roaddevops/photo.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_roaddevops/photo.jpg&quot; height=&quot;199&quot; width=&quot;200&quot; /&gt;
+&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;Having the same configurations across a distributed environment running your application would be a difficult job without tools like &lt;a href=&quot;http://puppetlabs.com/&quot; target=&quot;_blank&quot;&gt;Puppet&lt;/a&gt;.
+&lt;br /&gt;
+&lt;br /&gt;This tool audits each node, and enforces changes based on templates.
+&lt;br /&gt;
+&lt;br /&gt;Going from development containers to production can utilize tools like Puppet to get the job done.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;DevOps is more than just tools. It&#39;s also a mindset. Developers working with Sysadmins to create a environment that&#39;s conductive to creating the product. Everyone is on the same team, so why not use that to your advantage?
+&lt;br /&gt;
+&lt;br /&gt;Companies like &lt;a href=&quot;http://codeascraft.com/2010/05/20/quantum-of-deployment/&quot; target=&quot;_blank&quot;&gt;Etsy&lt;/a&gt; and &lt;a href=&quot;https://github.com/spotify/helios&quot; target=&quot;_blank&quot;&gt;Spotify&lt;/a&gt; have created processes and tools that are almost completely automated and will not push broken code to production. It makes going from development to production as painless as possible. New hires can push to production on their first day.
+&lt;br /&gt;
+&lt;br /&gt;All these tools have way more features than I listed. I just gave an oversimplified overview of how they contribute to the process.
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;https://www.bobbil.com/FileStore/ecc8c625-2f95-4f9a-9d31-582d6fee1ac2/Bobbil/images/logo.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;
+        &lt;br /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;&lt;a href=&quot;https://github.com/thatarchguy/Athena&quot; target=&quot;_blank&quot;&gt;Github - Athena&lt;/a&gt; is a project that I started that is utilizing each of these tools and strategies that I mentioned here. It only took a few extra steps to setup, and working on the project is extremely easy because of it. Less time is spent working on the environment, and more time is spent on the code.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</description>
+        <pubDate>Wed, 08 Oct 2014 05:37:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/the-road-to-devops</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/the-road-to-devops</guid>
         
-        
-        <category>web development</category>
         
       </item>
     
       <item>
-        <title>Project 4</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/15/project-4/</guid>
+        <title>Underground DNS Servers</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+
+This is just something I&#39;ve wanted to look into for a while now. I figured I&#39;d write about what I found.
+&lt;br /&gt;
+&lt;br /&gt;DNS is a service that resolves hostnames to IP addresses. It is convenient because we do not want to have to remember every IP address for websites we want to visit.
+&lt;br /&gt;
+&lt;br /&gt;A root authority exists that manages registered domains. The official DNS root is administered by the Internet Corporation for Assigned Names and Numbers (ICANN).
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+1.28.57+PM.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+1.28.57+PM.png&quot; height=&quot;53&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;DNS resolved Google.com to its IP&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;Here is the natural flow of a dns request:
+&lt;br /&gt;Request &quot;Google.com&quot; =&amp;gt; local dns =&amp;gt; Root nameserver =&amp;gt; com. nameserver =&amp;gt; google.com nameserver
+&lt;br /&gt;
+&lt;br /&gt;.com, .org, .net, .gov, etc... are all registered Top-Level Domains (TLDs) that ICANN recognizes.
+&lt;br /&gt;You can pay to lease a domain like &quot;pickles.com&quot; and everyone on the official DNS would recognize that. Your ISP will generally add their dns servers to your connection which will query ICANN. Google&#39;s DNS servers 8.8.8.8 and 8.8.4.4 do the same as well.
+&lt;br /&gt;
+&lt;br /&gt;A few&lt;a href=&quot;http://en.wikipedia.org/wiki/Alternative_DNS_root&quot; target=&quot;_blank&quot;&gt; alternative dns root servers &lt;/a&gt;exist, and you can point your workstation to them easily.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;But what about running your own DNS root nameserver? You could have any domain you want. You could have services respond on the domains you specify. The problem is that you would run into many conflicts with existing registered domains.
+&lt;br /&gt;A solution is to create your own TLD like .sekretclub or .pickles by running your own dns
+&lt;br /&gt;
+&lt;br /&gt;&lt;b&gt;Note: Companies will usually run an internal DNS server for intranet services, like &quot;wiki.lan&quot; or &quot;intranet.local&quot;.&lt;/b&gt;
+&lt;br /&gt;
+&lt;br /&gt;Malicious or private websites can choose to listen on domains that only exist on underground DNS servers. The DNS server can be a word-of-mouth IP address or work through some sort of invite system.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;Proof of Concept - Underground Community&lt;/h3&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Machine - Debian 7 x64 VPS&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Linux 3.2.0-4-amd64 #1 SMP Debian 3.2.54-2 x86_64 GNU/Linux
+    &lt;br /&gt;Services - bind9 dnsutils &lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;I &lt;a href=&quot;http://jackal777.wordpress.com/2013/11/19/custom-tld-for-local-network/&quot; target=&quot;_blank&quot;&gt;created&lt;/a&gt; the TLD &quot;.sekretclub&quot; which does not exist on ICANN&#39;s regulated list of TLD&#39;s.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.31.48+PM.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.31.48+PM.png&quot; height=&quot;284&quot; width=&quot;320&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.32.37+PM.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.32.37+PM.png&quot; height=&quot;229&quot; width=&quot;320&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Bind is super simple to setup and configure&lt;/td&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Querying the server responds with the IP of the domain&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Then I added some domains to that, such as &quot;forums.sekretclub&quot;, &quot;hiddenwiki.sekretclub&quot;, &quot;markets.sekretclub&quot;&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.19.31+PM.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_undergrounddns/Screen+Shot+2014-08-11+at+3.19.31+PM.png&quot; height=&quot;200&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Super Sekret forums hosted only on this domain&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;The servers that have these IP&#39;s to are set to show the webpage only when that domain is requested.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;It is very easy to add DNS servers to your workstation, so I simply added the IP address of the DNS server I created.&lt;/div&gt;
+&lt;h4 style=&quot;text-align: center;&quot;&gt;Security for the Club &lt;/h4&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;We want this DNS to be invite only, but the DNS protocol does not allow for this feature&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;A solution is to have a database of whitelisted IP addresses that the DNS server includes in its firewall.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;It would be easy to create a register page with invite codes to be included on the whitelist.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;The DNS server then becomes the gateway into the underground services. The servers running the services should have the same firewall whitelist system in place. That way if someone knows the IP address and domain the service is listening on, they can&#39;t manually edit their /etc/hosts file to bypass the DNS server altogether.&lt;/div&gt;This script on a cron or something would get the job done:
+&lt;br /&gt;
+&lt;div class=&quot;gistLoad&quot; data-id=&quot;3194f107351cf4a32b75&quot; id=&quot;gist-3194f107351cf4a32b75&quot;&gt;Loading .... &lt;/div&gt;
+&lt;br /&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;If the main DNS server is compromised, then the entire database of domains and IP&#39;s would be leaked. This single point of failure is definitely not ideal. A secondary DNS server could be created, but the main records would still be managed by one person.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;If the service is infiltrated, then the server operators can migrate to new IP&#39;s and just update the dns entry. The DNS gateway can switch to a new IP as well.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&amp;nbsp;Proof of Concept - Hidden Malware C2 Servers&lt;/h3&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Malware calls back to control. That is how they receive commands, exfiltrate data, etc...&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;Since hardcoding IP addresses into malware is generally a bad idea, most use domain names now. It is still easy to figure out what domains malware is calling out to, but it at least gives the attacker the opportunity to change the IP behind the domain. Instead of paying for domains, malware authors will generally just use free subdomains using services like no-ip.org.&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;The problem is that those domains are all still regulated by ICANN, and can be taken down or tracked with a request from an authority. &lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Some adware would change a user&#39;s DNS settings to point to malicious IP&#39;s when looking up domain names: &lt;/div&gt;
+&lt;blockquote class=&quot;tr_bq&quot;&gt;
+    &lt;div style=&quot;text-align: left;&quot;&gt;&quot;The botnet operated by Rove Digital altered user DNS settings, pointing victims to malicious DNS in data centers in Estonia, New York, and Chicago. The malicious DNS servers would give fake, malicious answers, altering user searches, and promoting fake and dangerous products. Because every web search starts with DNS, the malware showed users an altered version of the Internet.&quot; http://www.dcwg.org/ &lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;Malware sometimes uses their own DNS servers to call back to domains that would be very difficult to track since they are not on ICANN&#39;s registry. The most an antivirus solution can do is alert if the user&#39;s DNS settings changed.&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://raw.github.com/moski/gist-Blogger/master/public/gistLoader.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</description>
+        <pubDate>Fri, 22 Aug 2014 21:41:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/underground-dns-servers</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/underground-dns-servers</guid>
         
-        
-        <category>web development</category>
         
       </item>
     
       <item>
-        <title>Project 5</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://kaustubhhakim.github.io/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">https://kaustubhhakim.github.io/web%20development/2014/07/14/project-5/</guid>
+        <title>Raspberry Pi Dropbox Pentesting Tool</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;I finally got my hands on a Raspberry Pi to play around with. I could see the potential for malicious intent as soon as I saw it. The first thing I did was order a &lt;a href=&quot;https://www.adafruit.com/products/966&quot; target=&quot;_blank&quot;&gt;low profile microsd card adapter&lt;/a&gt;. This takes care of the obnoxious sd card sticking out the back, and allows for easier hiding of the Pi.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_raspipentest/raspi.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_raspipentest/raspi.jpg&quot; height=&quot;180&quot; width=&quot;320&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Check out the slick low profile microsd card adapter&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;I wanted the Pi to do a few things for me: &lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Only require Network and Power&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Call back to control once it was powered on&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Recon the network and report back&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Allow me to remote in and manually exploit &lt;/div&gt;
+&lt;br /&gt;I looked at the various pentest distros for the Pi. I ended up with &lt;a href=&quot;http://pwnpi.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;PwnPi&lt;/a&gt;. After seeing the little power this thing has, I would&#39;ve been more comfortable with &lt;a href=&quot;http://www.raspbian.org/&quot; target=&quot;_blank&quot;&gt;Raspbian&lt;/a&gt;. I say this because PwnPi takes forever to do things. Metasploit takes about 15 minutes to start up. I&#39;m using a class 10 SDHC card as well. It&#39;s just nice to know the tools are available if I desperately needed them.
+&lt;br /&gt;
+&lt;br /&gt;After loading up PwnPi, I made a user called &quot;pi&quot;. I generated ssh keys so it can ssh into my control server without a password. I made a user on my control server called &quot;pi&quot; as well. (And added the usual key-only login security measures, etc...)
+&lt;br /&gt;
+&lt;br /&gt;Now that we have ssh keys and a server to callback to, we can setup a script to automatically callback when turned on:
+&lt;br /&gt;
+&lt;div class=&quot;gistLoad&quot; data-id=&quot;10814406&quot; id=&quot;gist-10814406&quot;&gt;Loading ....&lt;/div&gt;
+&lt;br /&gt;Save as foo.sh , and drop it in a folder on the pi. Then make a crontab for this to run every minute or so. That way if connection is dropped, it will keep retrying to connect back.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_raspipentest/raspberrypi_ssh.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_raspipentest/raspberrypi_ssh.png&quot; height=&quot;141&quot; width=&quot;400&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;&amp;nbsp;
+&lt;br /&gt;Now we have most of the requirements that I wanted with that simple bash script. But what if we wanted a little more insight into the network we are connecting into. &lt;a href=&quot;http://en.wikipedia.org/wiki/Operations_security&quot; target=&quot;_blank&quot;&gt;Opsec&lt;/a&gt; is important, and you do not want to be too noisy on the network at once.
+&lt;br /&gt;
+&lt;br /&gt;With that in mind, I wrote a dirty nmap script that scans the network and scp&#39;s the report back to control:
+&lt;br /&gt;
+&lt;div class=&quot;gistLoad&quot; data-id=&quot;10814958&quot; id=&quot;gist-10814958&quot;&gt;Loading .... &lt;/div&gt;
+&lt;br /&gt;&amp;nbsp;The output looks like this:
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_raspipentest/raspberrypi_nmap.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_raspipentest/raspberrypi_nmap.png&quot; height=&quot;612&quot; width=&quot;640&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Now you know what exploits you want to run before you even manually connect in and go to work!
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Back to what I was saying about the Pi not being all that powerful. It would be ideal to connect in and run exploits right from the Pi. This was not the case, since tools and scans took forever to run.
+&lt;br /&gt;
+&lt;br /&gt;I ended up ssh tunneling my tools through the pi. Maybe in the future I&#39;ll put openvpn certs on it and route all traffic between the network it&#39;s on the the vpn. That way I can connect to the vpn and run train from it.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;The Rasbperry Pi can be a great tool to have when pentesting or causing havoc (same thing right? :P )
+&lt;br /&gt;You can put it in a inconspicuous case and no one will give it a second look:
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;&lt;img alt=&quot;Pi IMG&quot; src=&quot;http://www.tunnelsup.com/images/pi6.jpg&quot; style=&quot;margin-left: auto; margin-right: auto;&quot; /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;laptop battery case&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;&lt;img alt=&quot;Image&quot; src=&quot;/images/post_raspipentest/IMAG0434-50pc-anno-1024x577.jpg?84cd58&quot; height=&quot;225&quot; style=&quot;margin-left: auto; margin-right: auto;&quot; width=&quot;400&quot; /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Wireless router case&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;script src=&quot;https://raw.github.com/moski/gist-Blogger/master/public/gistLoader.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</description>
+        <pubDate>Wed, 16 Apr 2014 08:40:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/raspberry-pi-dropbox-pentesting-tool</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/raspberry-pi-dropbox-pentesting-tool</guid>
         
         
-        <category>web development</category>
+      </item>
+    
+      <item>
+        <title>Malware Reversing: Insomnia</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+
+Insomnia is a .NET framework Windows PE commanded through IRC that has been around for quite a few years. It has been updated and sold online for $30-$50. I came across this sample, and ran it inside of Cuckoo sandbox. Cuckoo indicated it was part of an IRC botnet, so I immediately started to pick it apart.
+&lt;br /&gt;
+&lt;h4 style=&quot;text-align: center;&quot;&gt;Insomnia Overview&lt;/h4&gt;&lt;b&gt;Purpose of Insomnia:&lt;/b&gt;
+&lt;br /&gt;Mass IRC Botnet control
+&lt;br /&gt;DDoS Attacks
+&lt;br /&gt;Credential Stealer
+&lt;br /&gt;
+&lt;br /&gt;&lt;b&gt;Features of Insomnia include:&lt;/b&gt;
+&lt;br /&gt;5 different DDoS methods to initiate distributed denial of service attacks against a wide variety of targets:
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;A&lt;/span&gt;pache &lt;span style=&quot;font-weight: bold;&quot;&gt;R&lt;/span&gt;emote &lt;span style=&quot;font-weight: bold;&quot;&gt;M&lt;/span&gt;emory &lt;span style=&quot;font-weight: bold;&quot;&gt;E&lt;/span&gt;xhaustion (A.R.M.E.)&lt;/li&gt;
+    &lt;li&gt;Slowloris&lt;/li&gt;
+    &lt;li&gt;Layer7&lt;/li&gt;
+    &lt;li&gt;Layer4&lt;/li&gt;
+    &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; text-align: right;&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;text-align: center;&quot;&gt;
+                    &lt;a href=&quot;/images/post_insomnia/CmzKod7.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_insomnia/CmzKod7.png&quot; height=&quot;152&quot; width=&quot;320&quot; /&gt;
+                    &lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Latest Insomnia builder&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;li&gt;UDP&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;Filezilla Stealer
+&lt;br /&gt;IM Stealer
+&lt;br /&gt;Web Browser Password Stealer (Chrome and Firefox)
+&lt;br /&gt;Twitter Spread
+&lt;br /&gt;USB Spread
+&lt;br /&gt;Registry monitor/persistence
+&lt;br /&gt;Monitor computer power state
+&lt;br /&gt;RusKill marks files for deletion upon reboot
+&lt;br /&gt;BotKiller&lt;b&gt; &lt;/b&gt;that is capable of removing bots that use injected threads in explorer.exe. Insomnia is coded to watch and detect many different attributes that malware display.
+&lt;br /&gt;
+&lt;br /&gt;&lt;b&gt;IRC Commands:&lt;/b&gt;
+&lt;br /&gt;&quot;.v&quot;: Version information
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.avinfo&quot;: Antivirus information
+&lt;br /&gt;
+&lt;br /&gt;&quot;.chrome&quot;: Steal All Chrome Credentials
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.firefox&quot;: Steal all Firefox Credentials
+&lt;br /&gt;
+&lt;br /&gt;&quot;.j&quot;: Join Channel
+&lt;br /&gt;
+&lt;br /&gt;&quot;.p&quot;: Part Channel
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.sort&quot;: Joins channel by GeoIPCountry to Sort bots
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.unsort&quot;: Leaves the GeoIPCountry channel
+&lt;br /&gt;
+&lt;br /&gt;&quot;.permsort&quot;: if parameter is a, JOIN #admins. Else JOIN #users
+&lt;br /&gt;
+&lt;br /&gt;&quot;.twitter&quot;: Twitter Spread
+&lt;br /&gt;
+&lt;br /&gt;&quot;.ftp&quot;: Steal Filezilla saved credentials
+&lt;br /&gt;
+&lt;br /&gt;&quot;.bk&quot;: BotKiller if parameter is -i, explorerFlash. Else just initiate botkiller
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.rc&quot;: Reconnect bot
+&lt;br /&gt;
+&lt;br /&gt;&quot;.up&quot;: Update Bot
+&lt;br /&gt;
+&lt;br /&gt;&quot;.rm&quot;: Uninstall bot
+&lt;br /&gt;
+&lt;br /&gt;&quot;.dl&quot;: Download Exe File
+&lt;br /&gt;
+&lt;br /&gt;&quot;.m&quot;: if parameter = on, then IRC Muted = true. If parameter = off, Then IRC Muted = false
+&lt;br /&gt;
+&lt;br /&gt;&quot;.arme&quot;: ARME flood
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.layer7&quot;: Layer7 Flood
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.layer4&quot;: Layer4 Flood
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.udp&quot;: UDP Flood
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.slow&quot;: Slowloris Flood
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.stop&quot;: Stops all Floods
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.read&quot;: execute commands from url
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.ruskill&quot;: Turns on or off Ruskill
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br /&gt;&quot;.socks&quot;: Connects through socks
+&lt;br /&gt;
+&lt;br /&gt;&quot;.usb&quot;: Turns on or off usb spread
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 style=&quot;text-align: center;&quot;&gt;Reversing Insomnia&lt;/h4&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Sample SHA256&lt;/b&gt;:
+    &lt;br /&gt;0d2df9914ff16053817a2d31b4ccdb0e2113dc96d1c499465c0be65444cd3538
+    &lt;br /&gt;
+    &lt;br /&gt;&lt;b&gt;Tools Used:&lt;/b&gt;
+    &lt;br /&gt;Cuckoo Sandbox
+    &lt;br /&gt;Ollydbg
+    &lt;br /&gt;JetBrains DotPeek
+    &lt;br /&gt;Visual Studio 2013
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;&lt;b&gt;Notable Strings:&lt;/b&gt;
+    &lt;br /&gt;$: strings 0d2df9914ff16053817a2d31b4ccdb0e2113dc96d1c499465c0be65444cd3538&amp;nbsp; | grep &#39;CorExeMain&#39;
+    &lt;br /&gt;&amp;nbsp;_CorExeMain
+    &lt;br /&gt;&quot;When a .NET executable loads, its entry point is usually a tiny stub of code. That stub just jumps to an exported function in MSCOREE.DLL (_CorExeMain or _CorDllMain)&quot; (http://a5.tf/Dbg)
+    &lt;br /&gt;
+    &lt;br /&gt;&amp;nbsp;$: strings 0d2df9914ff16053817a2d31b4ccdb0e2113dc96d1c499465c0be65444cd3538&amp;nbsp; | grep -i &#39;channel&#39;
+    &lt;br /&gt;channel
+    &lt;br /&gt;_mainChannel
+    &lt;br /&gt;mainChannel
+    &lt;br /&gt;mainChannelKey
+    &lt;br /&gt;
+    &lt;br /&gt;$: strings 0d2df9914ff16053817a2d31b4ccdb0e2113dc96d1c499465c0be65444cd3538&amp;nbsp; | grep -i &#39;botnick&#39;
+    &lt;br /&gt;botNick
+    &lt;br /&gt;BotNick
+    &lt;br /&gt;
+    &lt;br /&gt;The mainChannel and botNick strings were enough to give away it was joining an IRC server.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;Because of the indicator that the executable was .NET framework. I switched over to DotPeak,
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: left; text-align: left;&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;text-align: center;&quot;&gt;
+                    &lt;a href=&quot;/images/post_insomnia/functions.PNG&quot; style=&quot;clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_insomnia/functions.PNG&quot; height=&quot;320&quot; width=&quot;231&quot; /&gt;
+                    &lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Insomnia Functions&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br /&gt;DotPeek was very informative because it was able to disassemble the sample. The source code became cleartext, and I was able to fully understand what the sample was doing. The code was extremely well written compared to other samples I have seen.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;I was able to export the sample from DotPeek into Visual Studio 2013, and begin to start debugging and reversing.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;There is a snippet of code in Config.cs with all of the customizable configurations :&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;&lt;pre&gt;    public static string currentPath = Process.GetCurrentProcess().MainModule.FileName;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string randomID = Functions.RandomString(7);&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string botNick = Functions.BotNick();&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string botMD5 = Functions.GetMD5Hash(Config.currentPath);&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string version = &quot;2.2.0&quot;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string regLocation = &quot;HKCU&quot;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string socksUser = Config.randomID;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string socksPass = Convert.ToBase64String(Encoding.UTF8.GetBytes(Config.randomID)).Substring(0, 5);&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static bool topicAct = false;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; private static string enc = &quot;[Redacted Base64 String]&quot;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; private static string toParse = Encoding.UTF8.GetString(Convert.FromBase64String(Config.enc));&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static string customerID = Config.toParse.Substring(0, 8);&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; private static string[] nfo = Functions.Chk(new Data().decrypt(Config.toParse.Remove(0, 8)), Convert.ToInt32(Config.customerID)).Split(new char[1]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; {&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;/&#39;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; });&amp;nbsp;&lt;/pre&gt;&lt;pre&gt;&amp;nbsp;&lt;/pre&gt;The problem is that all of the configurations stem from the string &quot;enc&quot;. This is an encrypted string that needs to be reversed before we can figure out who the attacker is.
+    &lt;br /&gt;&lt;pre&gt;&amp;nbsp;&lt;/pre&gt;&lt;b&gt;Decryption Algorithm: &lt;/b&gt;
+&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;enc Base64 - &amp;gt; UTF8 -&amp;gt; First 8 characters removed and go to CustID -&amp;gt; Converted to Int32,
+&lt;br /&gt;
+&lt;br /&gt;Data.Decrypt Function on rest of characters (80 lines of character swapping)&amp;nbsp; -&amp;gt; Decrypted string with CustID used as key for Functions.Chk -&amp;gt; All split at &quot;/&quot; into nfo[] array
+&lt;br /&gt;
+&lt;br /&gt;I ended up writing a C# program to reverse the encryption algorithm it uses.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_insomnia/decrypt.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_insomnia/decrypt.png&quot; height=&quot;267&quot; width=&quot;640&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;&amp;nbsp;Source code can be found&lt;a href=&quot;http://github.com/thatarchguy/Insomnia-Decrypt-Code&quot; target=&quot;_blank&quot;&gt; here&lt;/a&gt;.
+&lt;br /&gt;
+&lt;br /&gt;&lt;b&gt;Results:&lt;/b&gt;
+&lt;br /&gt;Disassembling and reversing the encryption leads to a domain name which hosts the IRC server. Most of the server names are using a dynamic dns service like no-ip or dyndns.
+&lt;br /&gt;We can connect to the IRC and start issuing commands, like in my other entry,&amp;nbsp; &lt;a href=&quot;http://kevinlaw.info/blog/to-catch-hacker-honeypot-edition&quot; target=&quot;_blank&quot;&gt;To Catch a Hacker&lt;/a&gt;.</description>
+        <pubDate>Sat, 15 Feb 2014 03:25:00 +0100</pubDate>
+        <link>http://exokaustubh.com/blog/malware-reversing-insomnia</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/malware-reversing-insomnia</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analyzing Malware with Cuckoo</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_cuckoo/cuckoo.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;/images/post_cuckoo/cuckoo.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;&lt;a href=&quot;http://cuckoosandbox.org/&quot; target=&quot;_blank&quot;&gt;Cuckoo Sandbox&lt;/a&gt; is an automated malware analysis tool. It can tear apart a sample of malware and collect actionable threat data. Cuckoo is written in python, and is a free and open source tool.
+&lt;br /&gt;
+&lt;br /&gt;From their &lt;a href=&quot;http://www.cuckoosandbox.org/about.html&quot; target=&quot;_blank&quot;&gt;About page&lt;/a&gt;:
+&lt;br /&gt;
+&lt;blockquote class=&quot;tr_bq&quot;&gt;
+    &lt;div style=&quot;background-color: white; color: #333333; font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 9px;&quot;&gt;In three words, Cuckoo Sandbox is a malware analysis system.&lt;/div&gt;
+    &lt;div style=&quot;background-color: white; color: #333333; font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; margin-bottom: 9px;&quot;&gt;What does that mean? It simply means that you can throw any suspicious file at it and in a matter of seconds Cuckoo will provide you back some detailed results outlining what such file did when executed inside an isolated environment.&lt;/div&gt;
+&lt;/blockquote&gt;I am using Xubuntu 13.10 as the host machine for the lab. It is running inside of a Virtual machine for portability. Cuckoo is running version 0.6.
+&lt;br /&gt;
+&lt;br /&gt;Inside of the Xubuntu install, I have a Windows XP SP3 and a Windows 7 virtual machine on a VirtualBox install. Both of these machines have usual user applications, like Firefox, Adobe Reader, Java, etc...
+&lt;br /&gt;
+&lt;br /&gt;In order to use a virtual machine with Cuckoo, snapshots of the machine must be made for Cuckoo to start and revert back to. Upon uploading a sample, Cuckoo will restore the machine, execute and analyze the sample, and then revert the machine back to the snapshot.
+&lt;br /&gt;
+&lt;br /&gt;Here is an overview of the steps to use Cuckoo
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-37-26.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-37-26.png&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;
+                &lt;br /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-37-58.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-37-58.png&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;The WebUI works very well.&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;I went searching for Youtube Downloaders for malware samples. Aimbots and Cracks are good keywords to look for as well.&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;There is a WebUI for uploading samples that works very well.&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;There are many&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://docs.cuckoosandbox.org/en/latest/usage/packages/&quot; style=&quot;text-align: center;&quot; target=&quot;_blank&quot;&gt;different package&lt;/a&gt;&amp;nbsp;types that can be analyzed, like .jar, .pdf, and .zip&#39;s. Cuckoo does an excellent job and executing samples.&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-07.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-07.png&quot; width=&quot;400&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;After analysis is complete (usually 10-120 seconds), you get a nice printout of what cuckoo found. It also stores all this information on the host, so you can download all the pcap&#39;s and logs to have analyzed with another tool, like Wireshark.
+&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-24.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-24.png&quot; width=&quot;400&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Cuckoo takes screenshots everytime something changes on the screen. It will do it&#39;s best to automate installers too.
+&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;&amp;nbsp;Because Cuckoo analyzes the traffic, it prints out what IP&#39;s and DNS addresses it attempts to connect to. This is invaluable information when trying to reverse and track malware.
+&lt;br /&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-34.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-41-34.png&quot; width=&quot;400&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;
+                &lt;br /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+    &lt;a href=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-53-59.png&quot; imageanchor=&quot;1&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;225&quot; src=&quot;/images/post_cuckoo/xubuntu-2013-10-24-16-53-59.png&quot; width=&quot;400&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;This particular sample was not in the Virus Total database, so I uploaded it to have it analyzed by virus scanners for malicious intent. This sample was DownloadAdmin, an adware/PUA dropper.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;It is common for malware to reach out to it&#39;s command and control domain once installed. They may also connect out and download more payloads. Cuckoo can capture those connections.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;text-align: center;&quot;&gt;
+                &lt;a href=&quot;/images/post_cuckoo/Capture.PNG&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;113&quot; src=&quot;/images/post_cuckoo/Capture.PNG&quot; width=&quot;640&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Cuckoo will tell you if the malware is aware of virtualization.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;Cuckoo Sandbox makes automating malware analysis trivial. In my opinion, Cuckoo is a great starting point for analyzing a sample. It gives a wide range of useful information and displays it in an easy to read format. Some malware can detect if it has been run inside of a virtual machine, which is where Cuckoo falls short. Since Cuckoo is dependant on virtualization, you will only get a readout of hashes and a warning if the malware has a virtualization detection feature. Using a physical machine would be necessary for further analysis at that point.
+&lt;br /&gt;
+&lt;br /&gt;</description>
+        <pubDate>Fri, 25 Oct 2013 00:23:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/analyzing-malware-with-cuckoo</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/analyzing-malware-with-cuckoo</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Two-Factor Authentication &amp; How to Enable on SSH</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+&lt;div class=&quot;&quot; id=&quot;magicdomid4&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;If  you ever managed a linux server, chances are you logged into it with  Secure Shell. SSH is a vital service to manage hosts remotely. There are  ways to secure this by using strong passwords and bruteforce  prevention. SSH can use public/private keys to login without a password.  Keys are a convenient and secure way of connecting to and SSH server.  Two-factor adds to that security. Personally, I use keys to login to my server, but when I&#39;m not using keys it passes over to password &amp;amp; a time-based code.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid5&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid5&quot;&gt;
+    &lt;h3&gt;&lt;br /&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid6&quot; style=&quot;text-align: center;&quot;&gt;
+    &lt;h3&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;A Quick Introduction to Two-Factor Authentication&lt;/span&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid7&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Two-factor authentication provides and additional means of identifying a  user when logging into a service. It is becoming evident that just a  username &amp;amp; password is not enough.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid8&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid9&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Two factor would be:&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid10&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;what you know&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid11&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;what you have&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid12&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;what you are&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid13&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;-Pick two-&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid15&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid15&quot; style=&quot;text-align: center;&quot;&gt;&lt;i&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;ex.&amp;nbsp;&amp;nbsp; &quot;what you know&quot; (like a password) and &quot;what you have&quot; (like your phone).&lt;/span&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid16&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid16&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid17&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Two-factor  is generally a password and a time-dependant code. There are others, like push  messages, phone calls, asymmetric keys+push (twitter),&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid18&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid19&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Two&lt;i&gt;-&lt;/i&gt;factor is gaining popularity among web services. A few years ago you  had to acquire a dongle that generated a time-based code. Now with smartphones,  there are free apps to accomplish this.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid20&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid21&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Depending  on the security settings, some services require you type in a code  everytime you try to login or only when logging in from a new device.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid22&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid23&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Two-factor is not an end all solution to security. You should still use  strong passwords. Two-factor does leave room for man-in-the-middle or  man-in-the-browser attacks. Also your phone could be compromised and your two-factor could be hijacked.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid24&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid25&quot;&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;&quot; id=&quot;magicdomid26&quot; style=&quot;text-align: center;&quot;&gt;
+    &lt;h2&gt;&lt;b&gt;How to Enable Two-Factor on SSH&lt;/b&gt;&lt;/h2&gt;
+    &lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Package:&lt;/b&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;sudo apt-get install libpam-google-authenticator&lt;br /&gt;yaourt google-authenticator-libpam-git&lt;br /&gt;source from: https://code.google.com/p/google-authenticator/ &lt;/code&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid29&quot; style=&quot;text-align: left;&quot;&gt;
+        &lt;br /&gt;
+        &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+            &lt;a href=&quot;/images/post_2factor/2013-10-09-223512_378x92_scrot.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;96&quot; src=&quot;/images/post_2factor/2013-10-09-223512_378x92_scrot.png&quot; width=&quot;400&quot; /&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid30&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid31&quot;&gt;Now run &quot;google-authenticator&quot; as the user you want to generate a key for.&lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid34&quot;&gt;
+        &lt;br /&gt;
+        &lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td style=&quot;text-align: center;&quot;&gt;
+                        &lt;a href=&quot;/images/post_2factor/2013-10-09-223712_486x194_scrot.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;158&quot; src=&quot;/images/post_2factor/2013-10-09-223712_486x194_scrot.png&quot; width=&quot;400&quot; /&gt;
+                        &lt;/a&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;It even gives you a url for a nice QR code to scan.&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid40&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid41&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid42&quot;&gt;
+        &lt;br /&gt;
+        &lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td style=&quot;text-align: center;&quot;&gt;
+                        &lt;a href=&quot;/images/post_2factor/Screenshot_2013-10-09-22-39-52.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;400&quot; src=&quot;/images/post_2factor/Screenshot_2013-10-09-22-39-52.png&quot; width=&quot;225&quot; /&gt;
+                        &lt;/a&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Add the code to your smartphone using the Google Authenticator app&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;Next you have to setup Google Authenticator for SSH logins.&amp;nbsp;&lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;
+            &lt;br /&gt;Open the &lt;b&gt;/etc/pam.d/sshd &lt;/b&gt;file on your system&amp;nbsp;&lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;sudo nano /etc/pam.d/sshd&lt;/b&gt; and add the following line to the file:&lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;
+            &lt;blockquote&gt;&lt;code&gt;auth required pam_google_authenticator.so&lt;/code&gt;
+            &lt;/blockquote&gt;
+        &lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;Open the &lt;b&gt;/etc/ssh/sshd_config&lt;/b&gt; file, go to the &lt;b&gt;ChallengeResponseAuthentication&lt;/b&gt; line, and change it to:&lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;
+            &lt;blockquote&gt;&lt;code&gt;ChallengeResponseAuthentication yes&lt;/code&gt; &lt;/blockquote&gt;
+            &lt;div style=&quot;text-align: left;&quot;&gt;
+                &lt;blockquote&gt;(If the &lt;b&gt;ChallengeResponseAuthentication&lt;/b&gt; line doesn’t exist, add it.)&lt;/blockquote&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;Restart the SSH server, these commands depend on your distribution:&lt;/div&gt;
+        &lt;div style=&quot;text-align: left;&quot;&gt;
+            &lt;blockquote&gt;&lt;code&gt;sudo service ssh restart&lt;code&gt;&lt;br /&gt;&lt;code&gt;systemctl restart sshd&lt;/code&gt;&lt;/code&gt;
+                &lt;/code&gt;
+            &lt;/blockquote&gt;
+        &lt;/div&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
+            &lt;a href=&quot;/images/post_2factor/2013-10-09-225125_349x61_scrot.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;55&quot; src=&quot;/images/post_2factor/2013-10-09-225125_349x61_scrot.png&quot; width=&quot;320&quot; /&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;It should work now!
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;h3&gt;Backup your Google Authenticator&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid46&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid47&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;Google  Authenticator is a great app. A QR code is generated, you scan it with  your phone, then it&#39;s added to your google auth app.&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid48&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid49&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;To backup google auth:&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid50&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;&lt;code&gt;cp /data/data/com.google.android.apps.authenticator/databases/databases /sdcard&lt;/code&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid51&quot;&gt;(This location may vary. But it&#39;s in the general area)&lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid52&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid53&quot;&gt;Then use sqlite to pull the data. Or cat the file.&lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid54&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;&lt;code&gt;sqlite3 ./databases&lt;/code&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid55&quot;&gt;&lt;span class=&quot;author-a-5z85z2kstz86zz122zdz75zrz81zz78zz122zz72zz84z&quot;&gt;&lt;code&gt;sqlite&amp;gt; select * from accounts;&lt;/code&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;&quot; id=&quot;magicdomid56&quot;&gt;
+        &lt;br /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 10 Oct 2013 04:58:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/two-factor-authentication-how-to-enable</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/two-factor-authentication-how-to-enable</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How I Secure My Data</title>
+        <description>Converted from Blogger. Please excuse any layout errors!
+Many people ask me advice on securing their personal data. They are usually concerned with the operating system and not their connection. They are unaware to the attacks that can happen on a network, like MitM attacks. Securing personal data is very important, whether it be files on a hard drive or data in transit. Depending on the person asking, I usually suggest basic techniques, like using a trusted vpn and some form of file encryption.
+&lt;br /&gt;
+&lt;br /&gt;I often get asked what do I personally use to ensure that my data is protected. What are the steps that a person studying Information Security goes through to protect their data? Now with reports out of the NSA gathering our data, it is important that privacy stays intact. Not just from hackers, but from prying eyes in general now.
+&lt;br /&gt;
+&lt;h3&gt;So here goes, My current setup.&lt;/h3&gt;
+&lt;h2&gt;Hardware: &lt;/h2&gt;&lt;b&gt;Desktop, Dual boot Windows &amp;amp; Arch Linux &lt;/b&gt;
+&lt;br /&gt;(Windows partition is only used for video games.)
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;Bios password &lt;/li&gt;
+    &lt;li&gt;Windows Hard drive is truecrypt on boot. &lt;/li&gt;
+    &lt;li&gt;Arch Hard drive is Luks + Stacked file encryption (allows duress password,etc) &lt;a href=&quot;http://code.google.com/p/beerbottle/&quot;&gt;Read more&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt;Other hard drives with various media are &lt;a href=&quot;http://www.truecrypt.org/&quot;&gt;truecrypted&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt;Sensitive data is kept in truecrypt containers hidden with other extensions &lt;/li&gt;
+    &lt;li&gt;Screensaver + password lock &lt;/li&gt;
+    &lt;li&gt;Truepanic installed for panic mode, which automounts + shutdown when tripped &lt;/li&gt;
+&lt;/ul&gt;&lt;b&gt;Laptop, Windows &lt;/b&gt;
+&lt;br /&gt;(Fresh install, sensitive data is only temporary when on the move)
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;Bios password &lt;/li&gt;
+    &lt;li&gt;Truecrypt hard drive on boot &lt;/li&gt;
+    &lt;li&gt;Truecrypt container for sensitive data. &lt;/li&gt;
+&lt;/ul&gt;&lt;b&gt;Netbook, Arch Linux&lt;/b&gt;
+&lt;br /&gt;(Used only on the go. sensitive data is only temporary when on the move)
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;Bios password &lt;/li&gt;
+    &lt;li&gt;Luks + stacked file encryption &lt;/li&gt;
+&lt;/ul&gt;&lt;b&gt;Android phone&lt;/b&gt;
+&lt;br /&gt;(Stock ROM)
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;sdcard password &lt;/li&gt;
+    &lt;li&gt;Sim card password &lt;/li&gt;
+    &lt;li&gt;Android lockscreen password&lt;/li&gt;
+&lt;/ul&gt;&lt;b&gt;Android Tablet&lt;/b&gt;
+&lt;br /&gt;(Paranoid android)
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;Lock screen password &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;h2&gt;Data:&lt;/h2&gt;&lt;b&gt;VPN + SSH tunnel &lt;/b&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;I own two different virtual private servers for this connection. They are both in different datacenters in different countries. &lt;/li&gt;
+    &lt;li&gt;I noticed that my vpn dropped connection when being Man-in-the-middled in Windows. So I use the ssh tunnel (socks proxy) on top of the VPN just in case. &lt;/li&gt;
+    &lt;li&gt;My netbook is set by default to not send any connections unless on a vpn. Firefox only works on the ssh tunnel. &lt;/li&gt;
+&lt;/ul&gt;&lt;b&gt;Firefox/nightly &lt;/b&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;Despite firefox being arguably insecure and bloated with leftover code, I trust it more than chrome, IE, and opera. Firefox runs much better on Arch than on Windows from what I&#39;ve seen &lt;/li&gt;
+    &lt;li&gt;I use a few addons for it: &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Adblock Plus &lt;/li&gt;
+        &lt;li&gt;Ghostery &lt;/li&gt;
+        &lt;li&gt;Less Spam, please &lt;/li&gt;
+        &lt;li&gt;QuickProxy (for quick change ssh tunnel) &lt;/li&gt;
+        &lt;li&gt;Tamper Data (Testing purposes) &lt;/li&gt;
+        &lt;li&gt;Https Everywhere &lt;/li&gt;
+        &lt;li&gt;NoScript &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;&lt;b&gt;Logins&lt;/b&gt;
+&lt;br /&gt;I understand that all my data is encrypted, but what if someone manages to hack the things I login to, or worse?
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;I do not reuse passwords or have the same password for mutiple things. &lt;/li&gt;
+    &lt;li&gt;I use 2 factor authentication whenever possible. &lt;/li&gt;
+    &lt;li&gt;I use lastpass to store all the random passwords and such. &lt;/li&gt;
+    &lt;li&gt;I do not trust lastpass fully though. Although I do have enabled: &lt;/li&gt;
+    &lt;li&gt;Only being allowed to login from a certain country &lt;/li&gt;
+    &lt;li&gt;2 factor authentication&amp;nbsp; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;Thoughts on Tor&lt;/b&gt;
+&lt;br /&gt;I do not trust Tor. I understand Tor&#39;s goal to be anonymous on the internet, but I would not trust it with logging into accounts. Tor has its uses, like bypassing filters and such. Anyone can be a exit
+&lt;br /&gt;node on the network and listen to traffic. &quot;As Tor does not, and by design cannot, encrypt the traffic between an exit node and the target server, any exit node is in a position to capture any traffic passing through it which does not use end-to-end encryption such as TLS &lt;a href=&quot;http://en.wikipedia.org/wiki/Tor_%28anonymity_network%29#Exit_nodes_should_not_be_trusted&quot;&gt;(Wikipedia&lt;/a&gt;)&quot;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;Caveats / Problems / Issues&lt;/h2&gt;Someone could control cell and grab the 2 factor setup codes, thus gaining access to many accounts. There is no standard way to encrypt cell phones or provide better security for them.
+&lt;br /&gt;
+&lt;br /&gt;I do not use antivirus. I believe we should be educated enough to not download malware. &lt;a href=&quot;http://java-0day.com/&quot;&gt;I do not use Java either&lt;/a&gt;. Anything that you are suspicious of being malware can be uploaded to virustotal, and then ran in a virtual machine / sandbox environment. Every once in awhile I&#39;ll run malwarebytes just for peace of mind.
+&lt;br /&gt;
+&lt;br /&gt;Truecrypt seems a bit untrustworthy, I do not like their license. Although their encryption has proven to be sound.I do not like relying on it for all my data though.
+&lt;br /&gt;
+&lt;br /&gt;Someone could be listening on the end of the vpn. This is unlikely because I own the server which is running the vpn. Somewhere in the facility all traffic could be getting captured though. The ssh tunnel encrypts that data. I also own the server where that tunnel is going. Which someone could sniff the traffic from that as well. It&#39;s all relying on ssl from there.
+&lt;br /&gt;
+&lt;br /&gt;I am looking for an alternative to truecrypt. Full disk encryption with enncrypted file containers with full support on multiple operating systems.</description>
+        <pubDate>Sun, 18 Aug 2013 02:50:00 +0200</pubDate>
+        <link>http://exokaustubh.com/blog/how-to-secure-your-data</link>
+        <guid isPermaLink="true">http://exokaustubh.com/blog/how-to-secure-your-data</guid>
+        
         
       </item>
     

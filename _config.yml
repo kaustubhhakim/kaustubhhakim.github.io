@@ -1,12 +1,12 @@
 # Site settings
-title: Kevin Law
-email: mail@kevinlaw.info
+title: Kaustubh Hakim
+email: hakim.kaustubh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website and blog for Kevin Law 
+  Personal website of Kaustubh Hakim
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kevinlaw.info" # the base hostname & protocol for your site
-twitter_username: thatarchguy
-github_username:  thatarchguy
+url: "http://exokaustubh.com" # the base hostname & protocol for your site
+twitter_username: hbutsuak
+github_username:  kaustubhhakim
 permalink: /blog/:title
 
-markdown: redcarpet
+# markdown: redcarpet

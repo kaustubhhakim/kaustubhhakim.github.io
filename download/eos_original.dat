@@ -1,10 +1,11 @@
 # File name: eos_original.dat
 # No. of data rows, columns: 181, 3 
-# Ab Initio Equation of State of HCP-Iron up to the pressure of 137 TPa
+# Ab Initio Equation of State of HCP-Iron at T=0 K up to the pressure of 137 TPa
 # Authors: Hakim K., Rivoldini A., Van Hoolst T., Cottenier S., Jaeken J., Chust T., Steinle-Neumann G.
 # Please properly cite the original work: Hakim et al. (2018) Icarus 313, 61. DOI: 10.1016/j.icarus.2018.05.005 
 # For interpolated EOS data with 1 GPa resolution, download eos_interpolated.dat
 # The following data is based on ab initio calculations described in Hakim et al. (2018) Icarus 313, 61
+# For temperature-dependence of the EOS, please go to Sect. 3.2 of Hakim et al. (2018) Icarus 313, 61
 # Column 1: Volume (cm3/mol), Column 2: Delta Energy (kJ/mol), Column 3: Pressure (GPa) 
 # 
 6.792901425248649	-1565.4815761074424	-50.337770581628845

@@ -1,4 +1,13 @@
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBS0Y5TGKM"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-ZBS0Y5TGKM');
+		</script>
 		<title>Kaustubh Hakim</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">

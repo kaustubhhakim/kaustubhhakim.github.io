@@ -4,8 +4,8 @@ email: hakim.kaustubh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Kaustubh Hakim
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://exokaustubh.com" # the base hostname & protocol for your site
-twitter_username: hbutsuak
+url: "https://kaustubhhakim.github.io" # the base hostname & protocol for your site
+twitter_username: exokaustubh
 github_username:  kaustubhhakim
 permalink: /blog/:title
 
